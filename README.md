@@ -60,6 +60,29 @@ curl -s -X GET "http://10.10.10.10/login.php?login=php://filter/convert.base64-e
 whatweb
 whappalizer
 
+# Web Exploitation
+
+## sqlmap
+```s
+GET request
+sqlmap -u http://site-to-test.com/test.php?id=1 -p id
+
+sqlmap -u http://site-to-test.com/test.php?id=1*
+
+-u: URL to scan
+
+-p: parameter to scan
+
+*: Parameter to scan (if -p switch is not provided)
+
+POST request
+We can provide the data being passed in the POST request body to scan by the SQLMap tool.
+
+sqlmap -u http://site-to-test.com/admin/index.php –data=”user=admin&password=admin” -p user
+
+–data = POST data
+```
+
 
 
 # SMB Active Directory
