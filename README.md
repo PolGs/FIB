@@ -82,6 +82,9 @@ sqlmap -u http://site-to-test.com/admin/index.php –data=”user=admin&password
 
 –data = POST data
 ```
+**Use --os-shell Prompt for an interactive operating system shell**
+
+
 
 
 
