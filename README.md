@@ -65,7 +65,7 @@ whappalizer
 ## sqlmap
 ```s
 GET request
-sqlmap -u http://site-to-test.com/test.php?id=1 -p id
+sqlmap -u http://10.129.7.81/dashboard.php?search=a -p id
 
 sqlmap -u http://site-to-test.com/test.php?id=1*
 
