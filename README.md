@@ -8,6 +8,12 @@ ping -c 1
 linux -> 64 ttl
 windows -> 128 ttl
 ## nmap
+**Scan fast and easy:**
+```s
+sudo nmap -p- 10.129.156.47 -vvv 
+```
+
+
 **Scan all ports and save to nmap/allPorts (Folder must exist):**
 ```s
 nmap -p- -oA nmap/allPorts 10.129.156.47
