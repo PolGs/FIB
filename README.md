@@ -59,8 +59,7 @@ gobuster dns -d <domain> -w <word_list.txt> -i
 gobuster dns -d workers.htb -w /home/username/SecLists/Discovery/DNS/subdomains-top1million-5000.txt -i
 ```
 **Optional**
-
-Use dns proxy
+Use dns proxy to have wildcards on et/hosts (*.pol.com)
 https://github.com/hubdotcom/marlon-tools/blob/master/tools/dnsproxy/dnsproxy.py
 ## nmap
 **fast enum:**
