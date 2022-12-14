@@ -42,6 +42,21 @@ gobuster dir --url artcorp.htb -w /usr/share/wordlists/dirbuster/directory-list-
 ```s
 gobuster dns -t 30 -w /usr/share/wordlists/subdomains-top1million-110000.txt -d artcorp.htb
 ```
+**To find directories and files**
+
+```s
+gobuster dir -u <url> -w <wordlist_file.txt> -x <file_extensions>
+```
+```s
+gobuster dir -u http://workers.htb -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt -x php,php3,html
+```
+**To find subdomains in a specific domain**
+```s
+gobuster dns -d <domain> -w <word_list.txt> -i
+```
+```s
+gobuster dns -d workers.htb -w /home/username/SecLists/Discovery/DNS/subdomains-top1million-5000.txt -i
+```
 Use dns proxy
 https://github.com/hubdotcom/marlon-tools/blob/master/tools/dnsproxy/dnsproxy.py
 ## nmap
