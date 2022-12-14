@@ -49,16 +49,17 @@ gobuster dir -u http://workers.htb -w /usr/share/dirbuster/wordlists/directory-l
 gobuster dns -t 30 -w /usr/share/wordlists/subdomains-top1million-110000.txt -d artcorp.htb
 ```
 ```s
-gobuster vhost -w /opt/useful/SecLists/Discovery/DNS/subdomains-top1million-5000.txt -u http://thetoppers.htb
+gobuster vhost -w /usr/share/wordlists/subdomains-top1million-110000.txt -u http://thetoppers.htb
 ```
+Optionally use "--append-domain" flag
 ```s
 gobuster dns -d <domain> -w <word_list.txt> -i
 ```
 ```s
 gobuster dns -d workers.htb -w /home/username/SecLists/Discovery/DNS/subdomains-top1million-5000.txt -i
 ```
-
 **Optional**
+
 Use dns proxy
 https://github.com/hubdotcom/marlon-tools/blob/master/tools/dnsproxy/dnsproxy.py
 ## nmap
