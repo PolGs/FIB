@@ -8,9 +8,9 @@ ping -c 1
 linux -> 64 ttl
 windows -> 128 ttl
 ## nmap
-**Scan all ports:**
+**Scan all ports and save to nmap/allPorts (Folder must exist):**
 ```s
-nmap -p- -oA nmap/allPorts
+nmap -p- -oA nmap/allPorts 10.129.156.47
 ```
 
 **Scan versions and scripts:**
