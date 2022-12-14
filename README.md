@@ -85,6 +85,21 @@ whappalizer
 
 # Web Exploitation
 
+#AWS Amazon S3
+```s
+aws configure
+```
+We can list all of the S3 buckets hosted by the server by using the ls command.
+```s
+aws --endpoint=http://s3.thetoppers.htb s3 ls
+```
+We can also use the ls command to list objects and common prefixes under the specified bucket.
+```s
+aws --endpoint=http://s3.thetoppers.htb s3 ls s3://thetoppers.htb
+```
+
+
+
 ## sqlmap
 ```s
 GET request
