@@ -220,4 +220,14 @@ shell.php:
 http://thetoppers.htb/shell.php?cmd=id
 The response from the server contains the output of the OS command id
 
+#Dictionary Generation
+```s
+cewl
+```
+#Test ftp user wordlist using hydra:
+![image](https://user-images.githubusercontent.com/19478700/211882774-b0a7dab7-2da4-4195-a7e9-230ce8a87c34.png)
+
+#Crack ssh ftp mysql users using wordlists:
+cme ->Crackmapexec
+
 
