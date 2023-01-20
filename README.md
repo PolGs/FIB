@@ -146,6 +146,7 @@ smbclient -N -L
 ```s
 smbmap -H 10.10.11.152
 ```
+![image](https://user-images.githubusercontent.com/19478700/213701493-aea51ee8-7705-4d1c-90e0-b2899c99ff67.png)
 
 ### Users
 
