@@ -215,8 +215,8 @@ cat file.txt | grep .
 ```
 
 
-#Payloads
-
+# Payloads
+https://github.com/swisskyrepo/PayloadsAllTheThings
 ##PHP
 **Php one liner tat executes parameter commands:**
 shell.php:
@@ -235,5 +235,8 @@ cewl
 
 #Crack ssh ftp mysql users using wordlists:
 cme ->Crackmapexec
+
+# Log4j
+https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/CVE%20Exploits/Log4Shell.md
 
 
