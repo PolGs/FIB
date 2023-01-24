@@ -19,6 +19,11 @@ sudo nmap -p- 10.129.156.47 -vvv
 nmap -p- -oA nmap/allPorts 10.129.156.47
 ```
 
+**BIG GUNS NMAP**
+```s
+sudo nmap -p- -sS --min-rate 5000 -vvv -n -Pn 10.129.101.26 -oG allPorts | grep port
+```
+
 **Scan versions and scripts:**
 ```s
 nmap -sV -sC -oA nmap/search
