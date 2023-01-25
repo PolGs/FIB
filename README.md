@@ -194,6 +194,10 @@ evil-winrm -i 10.129.228.204 -u Administrator -p 'badminton'
 
 conncet using cert and priv key:
 
+## Get NTLM hash
+![image](https://user-images.githubusercontent.com/19478700/214714186-e3876353-c3fe-4cd1-99e8-789f7135cea5.png)
+![image](https://user-images.githubusercontent.com/19478700/214714312-f5b2151e-a0a4-4454-b329-a59532432865.png)
+
 
 
 # Cracking
