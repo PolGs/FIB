@@ -197,9 +197,14 @@ conncet using cert and priv key:
 ## Get NTLM hash
 ![image](https://user-images.githubusercontent.com/19478700/214714186-e3876353-c3fe-4cd1-99e8-789f7135cea5.png)
 ![image](https://user-images.githubusercontent.com/19478700/214714312-f5b2151e-a0a4-4454-b329-a59532432865.png)
+## Host share server
+![image](https://user-images.githubusercontent.com/19478700/214715933-ca7cdb35-89da-4b7b-8a53-f5ce63e1c582.png)
+#### to copy files to share:
+![image](https://user-images.githubusercontent.com/19478700/214716094-ff65b350-30a0-4c31-a8b2-beee12dab2dc.png)
 
-## post ex
-## C# offensive tools
+
+## Post ex
+### C# offensive tools
 https://github.com/Flangvik/SharpCollection
 eg sharphound -> bloodhound AD rights and relations
 
