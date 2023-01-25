@@ -182,13 +182,14 @@ date
 ```
 
 
-
 ## Access share
 ### smbclient
 smbclient \\\\10.129.95.187\\backups
 -> cd, ls get ....
 Connect using password:
 evil-winrm -i 10.129.228.204 -u Administrator -p 'badminton'
+
+![image](https://user-images.githubusercontent.com/19478700/214691178-b4aaf701-efda-4d83-97b2-9143d05be73c.png)
 
 
 conncet using cert and priv key:
@@ -245,3 +246,8 @@ https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/CVE%20Exploits/L
 
 # Reverse Shell Generator
 https://www.revshells.com
+
+# Social Engineering
+## Emails from console
+![image](https://user-images.githubusercontent.com/19478700/214691713-035aa13f-7199-46d4-94b8-bebba78af555.png)
+
