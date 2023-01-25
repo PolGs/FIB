@@ -222,7 +222,10 @@ cat file.txt | grep .
 
 # Payloads
 https://github.com/swisskyrepo/PayloadsAllTheThings
-##PHP
+## Interactive reverse shell windows
+https://github.com/antonioCoco/ConPtyShell
+
+## PHP
 **Php one liner tat executes parameter commands:**
 shell.php:
 ```php
@@ -231,7 +234,7 @@ shell.php:
 http://thetoppers.htb/shell.php?cmd=id
 The response from the server contains the output of the OS command id
 
-#Dictionary Generation
+# Dictionary Generation
 ```s
 cewl
 ```
