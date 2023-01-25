@@ -138,6 +138,9 @@ sqlmap --cookie=PHPSESSID=0r7rr0vcsrekau1453acmvdrg5 --os-shell -u http://10.129
 
 ## Enumeration: 
 ### Shares
+
+![image](https://user-images.githubusercontent.com/19478700/214690049-e84959e2-77d8-4843-b0cc-3aa2b17b1c50.png)
+
 Get basic information on shares:
 ```s
 cme smb IPADDR
