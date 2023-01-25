@@ -260,4 +260,8 @@ https://www.revshells.com
 ```s
 cewl
 ```
+# Tools
+## C# offensive tools
+https://github.com/Flangvik/SharpCollection
+
 
