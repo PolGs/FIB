@@ -1,4 +1,14 @@
 # CIBERSECURITY CHEATSHEET - polgs
+# Shells
+## Interactive reverse shell windows
+https://github.com/antonioCoco/ConPtyShell
+
+https://www.revshells.com
+https://github.com/Hackplayers/evil-winrm
+# Payloads
+https://github.com/swisskyrepo/PayloadsAllTheThings
+
+
 # INITIAL SCANS
 ## ping
 **Ping 1 packet:**
@@ -242,10 +252,7 @@ cat file.txt | grep .
 ```
 
 
-# Payloads
-https://github.com/swisskyrepo/PayloadsAllTheThings
-## Interactive reverse shell windows
-https://github.com/antonioCoco/ConPtyShell
+
 
 ## PHP
 **Php one liner tat executes parameter commands:**
@@ -256,13 +263,9 @@ shell.php:
 http://thetoppers.htb/shell.php?cmd=id
 The response from the server contains the output of the OS command id
 
-
-
 ## Log4j
 https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/CVE%20Exploits/Log4Shell.md
 
-## Reverse Shell Generator
-https://www.revshells.com
 
 # Social Engineering
 ## Emails from console
