@@ -214,6 +214,8 @@ date
 ### smbclient
 smbclient \\\\10.129.95.187\\backups
 -> cd, ls get ....
+Using username and pass:
+![image](https://user-images.githubusercontent.com/19478700/215273350-bf5c6ac9-6068-4e8c-8d25-c28892f1f6e2.png)
 Connect using password:
 evil-winrm -i 10.129.228.204 -u Administrator -p 'badminton'
 
