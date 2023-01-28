@@ -147,6 +147,10 @@ sqlmap --cookie=PHPSESSID=0r7rr0vcsrekau1453acmvdrg5 --os-shell -u http://10.129
 ```
 **Use --os-shell Prompt for an interactive operating system shell**
 
+SQLinjection in login:
+Save request as file from burpsuite
+![image](https://user-images.githubusercontent.com/19478700/215235215-5f998e1d-4cbc-4359-b369-a24b05a59384.png)
+(ippsec - trick)
 
 
 
