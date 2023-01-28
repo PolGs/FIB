@@ -150,6 +150,10 @@ sqlmap --cookie=PHPSESSID=0r7rr0vcsrekau1453acmvdrg5 --os-shell -u http://10.129
 SQLinjection in login:
 Save request as file from burpsuite
 ![image](https://user-images.githubusercontent.com/19478700/215235215-5f998e1d-4cbc-4359-b369-a24b05a59384.png)
+If File permission is available we can red files on te FS
+![image](https://user-images.githubusercontent.com/19478700/215235347-475e8017-49f6-4470-9f21-c586e3e6ce57.png)
+delete file to check privileges
+
 (ippsec - trick)
 
 
