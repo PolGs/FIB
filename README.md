@@ -314,6 +314,24 @@ https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/CVE%20Exploits/L
 ## Emails from console
 ![image](https://user-images.githubusercontent.com/19478700/214691713-035aa13f-7199-46d4-94b8-bebba78af555.png)
 
+# OSINT
+https://intelx.io
+https://www.dehashed.com
+https://github.com/jivoi/awesome-osint
+https://github.com/sherlock-project/sherlock
+https://github.com/twintproject/twint
+https://github.com/mxrch/GHunt
+https://github.com/soxoj/maigret
+https://github.com/Datalux/Osintgram
+https://tineye.com
+https://www.shodan.io
+
+# Dasboard
+https://cybermap.kaspersky.com
+<iframe width="640" height="640" src="https://cybermap.kaspersky.com/en/widget/dynamic/dark" frameborder="0">
+
+
+
 # Dictionary Generation
 ```s
 cewl
