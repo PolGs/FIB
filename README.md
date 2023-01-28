@@ -325,9 +325,13 @@ https://github.com/soxoj/maigret
 https://github.com/Datalux/Osintgram
 https://tineye.com
 https://www.shodan.io
+https://chrome.google.com/webstore/detail/crowdtangle-link-checker/klakndphagmmfkpelfkgjbkimjihpmkh
 
 # Dasboard
 https://cybermap.kaspersky.com
+https://trends.google.com/trends/hottrends/visualize?nrow=5&ncol=5
+https://onemilliontweetmap.com
+
 <iframe width="640" height="640" src="https://cybermap.kaspersky.com/en/widget/dynamic/dark" frameborder="0">
 
 
