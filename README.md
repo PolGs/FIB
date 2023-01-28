@@ -1,4 +1,10 @@
 # CIBERSECURITY CHEATSHEET - polgs
+# Links
+https://start.me/p/vjBeQ6/cybersecurity
+
+
+
+
 # Shells
 ## Interactive reverse shell windows
 https://github.com/antonioCoco/ConPtyShell
@@ -8,8 +14,12 @@ https://github.com/Hackplayers/evil-winrm
 r57 shells:
 c99 shell php shell
 https://www.r57shell.net/index.php
+
 # Payloads
 https://github.com/swisskyrepo/PayloadsAllTheThings
+
+
+
 
 
 # INITIAL SCANS
@@ -125,7 +135,8 @@ aws --endpoint=http://s3.thetoppers.htb s3 ls s3://thetoppers.htb
 ## sqlmap
 ```s
 GET request
-sqlmap -u http://10.129.7.81/dashboard.php?search=a -p id
+sqlmap -u http://10.129.7.81/f
+hboard.php?search=a -p id
 
 sqlmap -u http://site-to-test.com/test.php?id=1*
 
@@ -326,11 +337,14 @@ https://github.com/Datalux/Osintgram
 https://tineye.com
 https://www.shodan.io
 https://chrome.google.com/webstore/detail/crowdtangle-link-checker/klakndphagmmfkpelfkgjbkimjihpmkh
+https://start.me/p/QRqE7r/osint
+
 
 # Dasboard
 https://cybermap.kaspersky.com
 https://trends.google.com/trends/hottrends/visualize?nrow=5&ncol=5
 https://onemilliontweetmap.com
+https://start.me/p/wMPxqX/cyber-threat-intelligence
 
 <iframe width="640" height="640" src="https://cybermap.kaspersky.com/en/widget/dynamic/dark" frameborder="0">
 
