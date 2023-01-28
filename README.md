@@ -5,6 +5,9 @@ https://github.com/antonioCoco/ConPtyShell
 
 https://www.revshells.com
 https://github.com/Hackplayers/evil-winrm
+r57 shells:
+c99 shell php shell
+https://www.r57shell.net/index.php
 # Payloads
 https://github.com/swisskyrepo/PayloadsAllTheThings
 
