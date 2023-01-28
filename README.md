@@ -59,7 +59,11 @@ gobuster dir -u <url> -w <wordlist_file.txt> -x <file_extensions>
 ```s
 gobuster dir -u http://workers.htb -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt -x php,php3,html
 ```
-**Find subdmains using:**
+**Find subdomains using:**
+```s
+wfuzz -c -w /usr/share/wordlists/subdomains-top1million-110000.txt -u "http://flight.htb/" -H "Host: FUZZ.flight.htb" --hl 154
+``` 
+change --hl to hide packets of specific length
 ```s
 gobuster dns -t 30 -w /usr/share/wordlists/subdomains-top1million-110000.txt -d artcorp.htb
 ```
