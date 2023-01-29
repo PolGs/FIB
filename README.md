@@ -370,6 +370,8 @@ https://start.me/p/wMPxqX/cyber-threat-intelligence
 ```s
 cewl
 ```
+wordlist generation
+https://github.com/D4Vinci/elpscrk
 
 
 
