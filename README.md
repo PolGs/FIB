@@ -259,7 +259,7 @@ responder -I tun0 -wPv
 ```
 ### Crack NTLM:
 ```s
-hashcat -a 0 -m 5600 hash_c.bum /usr/share/wordlists/rockyou.txt --show
+hashcat -a 0 -m 5600 hash_c.bum /usr/share/wordlists/rockyou.txt
 ```
 
 ### Places to steal ntlm
