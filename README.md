@@ -265,6 +265,10 @@ hashcat -a 0 -m 5600 hash_c.bum /usr/share/wordlists/rockyou.txt
 ### Places to steal ntlm
 https://book.hacktricks.xyz/windows-hardening/ntlm/places-to-steal-ntlm-creds#desktop.ini
 
+## RunaCs
+an utility to run specific processes with different permissions than the user's current logon provides
+https://github.com/antonioCoco/RunasCs/tree/master
+
 
 ## Host share server
 ![image](https://user-images.githubusercontent.com/19478700/214715933-ca7cdb35-89da-4b7b-8a53-f5ce63e1c582.png)
