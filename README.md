@@ -15,6 +15,9 @@ r57 shells:
 c99 shell php shell
 https://www.r57shell.net/index.php
 
+Fav PHP SHELL:
+https://github.com/WhiteWinterWolf/wwwolf-php-webshell
+
 # Payloads
 https://github.com/swisskyrepo/PayloadsAllTheThings
 
