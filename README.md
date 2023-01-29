@@ -17,6 +17,8 @@ https://www.r57shell.net/index.php
 
 Fav PHP SHELL:
 https://github.com/WhiteWinterWolf/wwwolf-php-webshell
+![image](https://user-images.githubusercontent.com/19478700/215343220-78d903d9-092d-4269-8d59-11eeb6fa3f79.png)
+e.g. Afterwards uplad netcat
 
 # Payloads
 https://github.com/swisskyrepo/PayloadsAllTheThings
