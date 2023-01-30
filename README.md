@@ -172,8 +172,10 @@ delete file to check privileges
 
 (ippsec - trick)
 
-
-
+### Test req captured with burpsuite (only one parameter)
+ ```bash
+ sqlmap -r admin.req -p total_service --batch
+```
 
 # SMB Active Directory
 
