@@ -292,6 +292,13 @@ Tool used to gather and display information about a domain using GUI
 https://github.com/Flangvik/SharpCollection
 eg sharphound -> bloodhound AD rights and relations
 
+# Privesc
+Ruby YAML deserialization
+https://gist.github.com/staaldraad/89dffe369e1454eedd3306edc8a7e565#file-ruby_yaml_load_sploit2-yaml
+https://blog.stratumsecurity.com/2021/06/09/blind-remote-code-execution-through-yaml-deserialization/
+
+
+
 # Cracking
 ## Crack ssh ftp mysql users using wordlists:
 cme ->Crackmapexec
