@@ -134,7 +134,11 @@ We can also use the ls command to list objects and common prefixes under the spe
 ```s
 aws --endpoint=http://s3.thetoppers.htb s3 ls s3://thetoppers.htb
 ```
+## Parameter injection
 
+## NoSQL
+https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/NoSQL%20Injection#tools
+![image](https://user-images.githubusercontent.com/19478700/216854327-26df334a-9923-410e-801e-116df26a3dcb.png)
 
 
 ## sqlmap
