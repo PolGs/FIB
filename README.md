@@ -25,8 +25,6 @@ https://github.com/swisskyrepo/PayloadsAllTheThings
 
 
 
-
-
 # INITIAL SCANS
 ## ping
 **Ping 1 packet:**
@@ -64,6 +62,10 @@ nmap -p- -sS --min-rate 5000 -vvv -n -Pn 10.10.11.152 -oG allPorts
 ```s
 sudo nmap -p 1-500 -sU -T4 10.10.11.152 -Pn
 ```
+
+# Firewalls
+![image](https://user-images.githubusercontent.com/19478700/217123333-021267f1-a9ab-48eb-bed1-c4444d11ba8b.png)
+Test if there is firewall filtered vs unfiltered
 
 # WEB ENUMERATION
 ## gobuster
