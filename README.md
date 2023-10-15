@@ -392,5 +392,10 @@ wordlist generation
 https://github.com/D4Vinci/elpscrk
 
 
-
+# RFID
+https://github.com/RfidResearchGroup
+https://github.com/RfidResearchGroup/proxmark3/blob/master/doc/commands.md
+https://github.com/carlospolop/hacktricks/blob/master/radio-hacking/pentesting-rfid.md
+https://www.youtube.com/watch?v=n1Xt-1ZmjM0
+Precompiled software avaiable at tools prox.7z
 
