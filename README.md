@@ -97,6 +97,11 @@ gobuster dns -d <domain> -w <word_list.txt> -i
 ```s
 gobuster dns -d workers.htb -w /home/username/SecLists/Discovery/DNS/subdomains-top1million-5000.txt -i
 ```
+**API endpoint enumeration:**
+```s
+wfuzz -c -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt -u "http://10.10.11.244:3000/FUZZ" --hw 7
+```
+
 **Optional**
 Use dns proxy to have wildcards on et/hosts (*.pol.com)
 https://github.com/hubdotcom/marlon-tools/blob/master/tools/dnsproxy/dnsproxy.py
