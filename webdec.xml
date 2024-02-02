@@ -5,6 +5,10 @@
   -  Copyright (C) 2015, Wazuh Inc.
   -  Copyright (C) 2009 Trend Micro Inc.
   -  This program is a free software; you can redistribute it and/or modify it under the terms of GPLv2.
+
+    <decoder_exclude>ruleset/decoders/0375-web-accesslog_decoders.xml</decoder_exclude>
+
+
 -->
 
 <!-- NCSA common log decoder (used by apache, Lotus Domino and IIS NCSA).
