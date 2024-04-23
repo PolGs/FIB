@@ -22,6 +22,8 @@ e.g. Afterwards uplad netcat
 
 # Payloads
 https://github.com/swisskyrepo/PayloadsAllTheThings
+https://github.com/payloadbox/sql-injection-payload-list/blob/master/Intruder/exploit/Auth_Bypass.txt
+https://github.com/payloadbox/sql-injection-payload-list/
 
 
 
@@ -394,6 +396,11 @@ cewl
 ```
 wordlist generation
 https://github.com/D4Vinci/elpscrk
+https://github.com/r3nt0n/bopscrk
+
+
+
+
 
 
 # RFID
