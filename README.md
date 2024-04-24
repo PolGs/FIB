@@ -1,6 +1,7 @@
 # CIBERSECURITY CHEATSHEET - polgs
 # Links
 https://start.me/p/vjBeQ6/cybersecurity
+https://github.com/arainho/awesome-api-security
 
 
 
@@ -399,7 +400,7 @@ https://github.com/D4Vinci/elpscrk
 https://github.com/r3nt0n/bopscrk
 
 
-
+http://wordlists.assetnote.io/
 
 
 
