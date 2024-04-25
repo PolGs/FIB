@@ -1,30 +1,34 @@
 # CIBERSECURITY CHEATSHEET - polgs
 # Links
-https://start.me/p/vjBeQ6/cybersecurity
+https://start.me/p/vjBeQ6/cybersecurity \\
 https://github.com/arainho/awesome-api-security
-
 
 
 
 # Shells
 ## Interactive reverse shell windows
 https://github.com/antonioCoco/ConPtyShell
-
 https://www.revshells.com
 https://github.com/Hackplayers/evil-winrm
 r57 shells:
 c99 shell php shell
 https://www.r57shell.net/index.php
-
-Fav PHP SHELL:
 https://github.com/WhiteWinterWolf/wwwolf-php-webshell
-![image](https://user-images.githubusercontent.com/19478700/215343220-78d903d9-092d-4269-8d59-11eeb6fa3f79.png)
-e.g. Afterwards uplad netcat
 
 # Payloads
 https://github.com/swisskyrepo/PayloadsAllTheThings
 https://github.com/payloadbox/sql-injection-payload-list/blob/master/Intruder/exploit/Auth_Bypass.txt
 https://github.com/payloadbox/sql-injection-payload-list/
+
+
+# WEB & API Pentesting
+https://github.com/shieldfy/API-Security-Checklist
+https://github.com/Cyber-Guy1/API-SecurityEmpire/tree/main
+https://book.hacktricks.xyz/network-services-pentesting/pentesting-web/web-api-pentesting
+https://book.hacktricks.xyz/network-services-pentesting/pentesting-web
+https://book.hacktricks.xyz/pentesting-web/login-bypass
+
+
 
 
 
